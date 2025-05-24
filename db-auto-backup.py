@@ -137,6 +137,7 @@ BACKUP_PROVIDERS: list[BackupProvider] = [
             "timescale/timescaledb",
             "pgvector/pgvector",
             "pgautoupgrade/pgautoupgrade",
+            "ghcr.io/ferretdb/postgres-documentdb"
         ],
         backup_method=backup_psql,
         file_extension="sql",
